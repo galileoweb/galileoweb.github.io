@@ -1,0 +1,102 @@
+/*
+ * Smartline Pro CSS
+ * http://themezee.com/themes/smartline/#PROVersion-1
+ *
+ * Copyright(C) 2015, ThemeZee.com - support@themezee.com
+ * License: GPL v3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ */
+ 
+#logo .site-logo {
+	float: left;
+	border: 0;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Footer Widget Area
+-------------------------------------------------------------- */
+#footer-widgets-bg {
+	background: #333;
+	border-top: 0.6em solid rgba(0, 0, 0, 0.2);
+}
+#footer-widgets {
+	padding-top: 1em;
+	padding-left: 1em;
+}
+.footer-widget-column {
+	float: left;
+	width: 25%;
+	padding-right: 1em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* Footer Widget Styling */
+#footer-widgets .widget {
+	background: none;
+}
+#footer-widgets .widgettitle {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#footer-widgets .widget ul, #footer-widgets .widget div{
+	color: #fff;
+}
+#footer-widgets .widget a:link, #footer-widgets .widget a:visited  {
+	color: #ccc;
+}
+
+/* Custom Widget Styling */
+#footer-widgets #wp-calendar {
+	color: #fff;
+}
+
+
+/*============================ MEDIA QUERIES ============================*/
+
+/* Smaller screens | <1120px */
+@media only screen and (max-width: 70em) {
+	#logo .site-logo {
+		float: none;
+	}
+}
+@media only screen and (max-width: 65em) {
+	.footer-widgets-left, .footer-widgets-right {
+		float: left;
+		width: 50%;
+		padding-right: 1em;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.footer-widget-column {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+}
+@media only screen and (max-width: 50em) {
+	.footer-widgets-left, .footer-widgets-right {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+	}
+	.footer-widget-column {
+		padding-right: 1em;
+	}
+}
+
+/* Phablets (portrait) | <640px */
+@media only screen and (max-width: 40em) {
+	#footer-widgets {
+		padding-top: 0.5em;
+		padding-left: 0.5em;
+	}
+	.footer-widget-column {
+		padding-right: 0.5em;
+	}
+}
